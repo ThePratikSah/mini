@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper teal">
+            <a href="index.html" class="brand-logo logo">Vidya Vihar</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="apply.html">Leave</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="apply.html">Leave</a></li>
+    </ul>
+
+    <!-- Page Layout here -->
+    <div class="container">
+        <!-- Page Content goes here -->
+        <div class="col s6">
+            <div class="col s8 m5">
+                <div class="card-panel card">
+                    <p class="heading">Login To Your Organisation</p>
+                    <div class="input-field col s12">
+                        <input placeholder="Email*" id="first_name" type="email" class="validate">
+                    </div>
+                    <div class="input-field col s12">
+                        <input placeholder="Password*" id="first_name" type="password" class="validate">
+                    </div>
+                    <a class="btn" href="apply.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+
+</html>

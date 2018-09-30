@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leave Application</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper teal">
+            <a href="index.html" class="brand-logo logo">Vidya Vihar</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+    </ul>
+
+    <!-- Page Layout here -->
+    <div class="container">
+        <!-- Page Content goes here -->
+        <div class="col s6">
+            <div class="col s8 m5">
+                <div class="card-panel card">
+                    <p class="heading">Apply leave here</p>
+                    <div class="input-field col s12">
+                        <input placeholder="Student id*" id="first_name" type="number" class="validate">
+                    </div>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" checked />
+                            <span>Full day</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>Half day</span>
+                        </label>
+                    </p>
+                    <label>Leave type</label>
+                    <select class="browser-default">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Medical leave</option>
+                        <option value="2">General leave</option>
+                        <option value="3">Festival leave</option>
+                        <option value="4">Mariage ceremony</option>
+                    </select>
+                    <input placeholder="From*" type="text" class="datepicker">
+                    <input placeholder="To*" type="text" class="datepicker">
+                    <input placeholder="Total days*" type="text" class="total-day">
+                    <textarea id="textarea1" class="materialize-textarea" placeholder="Reason*"></textarea>
+                    <a onclick="M.toast({html: 'Request submitted.'})" class="waves-effect waves-light btn">Request</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer teal">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="login.html">Login</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Signup</a></li>
+                        <li><a class="grey-text text-lighten-3" href="apply.html">Apply</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2009 Vidya Vihar
+                <a class="grey-text text-lighten-4 right" href="#!">All rights reserved</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.datepicker').datepicker();
+        });
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+body{
+    background: pink;
+}
+
+.shadow{
+    height: 60px;
+    width: 320px;
+    position: absolute;
+    background: rgba(247, 160, 174, 0.836);
+    border-radius: 50%;
+    margin-top: 345px;
+    margin-left: 27px;
+}
+
+.cake-base{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    background: rgb(245, 139, 157);
+    border-radius: 4% 4% 10% 10%;
+    margin-top: 230px;
+    margin-left: 115px;
+    z-index: 1;
+}
+
+.candle{
+    height: 30px;
+    width: 13px;
+    background-color: #fff;
+    border-radius: 4% 4% 10% 10%;
+    margin-left: 69px;
+    margin-top: -30px;
+}
+
+.wick{
+    background:rgb(143, 120, 120);
+    height: 5px;
+    width: 2px;
+    margin-left: 75px;
+    margin-top: -34px;
+    z-index: 2;
+}
+
+.flame{
+    animation-name: glow;
+    animation-duration: 0.15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow{
+    0%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(-2.5px)
+    }
+    100%{
+        transform: translateY(-1px)
+    }
+}
+
+.flame-1{
+    background: rgb(255, 135, 65);
+    width: 18px;
+    height: 18px;
+    margin-left: 67px;
+    margin-top: -21px;
+    transform: rotate(-45deg);
+    border-radius: 100% 0% 100% 100%;
+}
+
+.flame-2{
+    background: rgb(250, 206, 84);
+    width: 10px;
+    height: 10px;
+    margin-left: 71px;
+    margin-top: -11px;
+    transform: rotate(-45deg);
+    border-radius: 100% 0% 100% 100%;
+}
+
+.semi-circle{
+    margin-top: 3px;
+    opacity: 0.5;
+}
+
+.semi-circle-1{
+    width: 30px;
+    height: 15px;
+    background: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: 32.5px;
+}
+
+.semi-circle-2{
+    width: 30px;
+    height: 15px;
+    background: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: -15px;
+    margin-left: 30px;
+}
+
+.semi-circle-3{
+    width: 30px;
+    height: 15px;
+    background: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: -15px;
+    margin-left: 60px;
+}
+
+.semi-circle-4{
+    width: 30px;
+    height: 15px;
+    background: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: -15px;
+    margin-left: 90px;
+}
+
+.semi-circle-5{
+    width: 30px;
+    height: 15px;
+    background: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: -15px;
+    margin-left: 120px;
+}
+
+.cherry-fruit{
+    margin-top: -105px;
+}
+
+.cherry-fruit-2{
+    margin-top: -100px;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.cherry{
+    background: rgb(184, 68, 68);
+    width: 15px;
+    height: 15px;
+    margin-left: 30px;
+    margin-top: 25px;
+    border-radius: 100%;
+}
+
+.cherry-dot{
+    background: rgb(231, 122, 122);
+    width: 6px;
+    height: 6px;
+    margin-left: 38px;
+    margin-top: -12px;
+    border-radius: 100%;
+}
+
+.cherry-leaf{
+    width: 16px;
+    height: 9px;
+    margin-left: 30px;
+    margin-top: -15px;
+    transform: rotate(105deg);
+    border-radius: 100% 10% 100% 10%;
+    background: rgb(45, 112, 1);
+}
+
+.cherry-leaf-2{
+    width: 6px;
+    height: 9px;
+    margin-left: 41px;
+    margin-top: -4px;
+    transform: rotate(-110deg);
+    border-radius: 10% 100% 10% 100%;
+    background: rgb(45, 112, 1);
+}
+
+.flat-lines{
+    background: rgba(255, 255, 255, 0.623);
+    width: 150px;
+    height: 10px;
+    margin-top: 40px;
+    opacity: 0.5;
+}
+
+.flat-lines-2{
+    background: rgba(255, 255, 255, 0.623);
+    width: 240px;
+    height: 10px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.cake-base-2{
+    height: 80px;
+    width: 240px;
+    position: absolute;
+    background: rgb(245, 139, 157);
+    border-radius: 4% 4% 10% 10%;
+    margin-top: 300px;
+    margin-left: 70px;
+    z-index: 1;
+}
+
+.semi-circle-11{
+    width: 60px;
+    height: 30px;
+    background: white;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: 2.5px;
+}
+
+.semi-circle-12{
+    width: 60px;
+    height: 30px;
+    background: white;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: -30px;
+    margin-left: 60px;
+}
+
+.semi-circle-13{
+    width: 60px;
+    height: 30px;
+    background: white;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: -30px;
+    margin-left: 120px;
+}
+
+.semi-circle-14{
+    width: 60px;
+    height: 30px;
+    background: white;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top: -30px;
+    margin-left: 180px;
+}
+
